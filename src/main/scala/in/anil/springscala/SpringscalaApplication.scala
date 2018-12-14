@@ -13,5 +13,6 @@ class SpringscalaApplication
 object SpringscalaApplication {
   def main(args: Array[String]) {
     SpringApplication.run(classOf[SpringscalaApplication])
+    println(">>>>> Server Started..... <<<<<")
   }
 }
